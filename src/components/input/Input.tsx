@@ -122,7 +122,7 @@ const Input = () => {
       {/* SMALL SCREENS */}
       <div className="smallscreens">
         <Container className="maincon">
-          <Row className="rowtwo">
+          <Row className="rowone">
             <Col>
               <div className="headingone">Home/Template</div>
             </Col>
@@ -150,7 +150,7 @@ const Input = () => {
                 <input
                   type="number"
                   id="quantity"
-                  name="quantity"
+                  name="quantnity"
                   min="0"
                   max="10"
                 />
@@ -180,8 +180,8 @@ const Input = () => {
             </Col>
           </Row>
           <Row className="rowfour">
-            <div>
-              <div>word:00 | character:0/250</div>
+            <div className="wordcon">
+              <div className="wordconchild">word:00 | character:0/250</div>
             </div>
           </Row>
 

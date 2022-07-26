@@ -47,7 +47,7 @@ color: #0188f3;
 }
 
 .txtthree{
-    font-size: 12px;
+    font-size: 13px;
 }
 .item2{
     position: relative;
@@ -105,7 +105,7 @@ color: #0188f3;
 textarea {
     width: 100%;
 
-    padding: 12px 20px;
+    padding: 13px 20px;
     box-sizing: border-box;
     border: 2px solid #fff;
     background-color: #fff;
@@ -118,18 +118,18 @@ select{
     outline: 1px solid #0188f3;
     border: none;
     padding: 2px 4px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 input{
     outline: 1px solid #0188f3;
     border: none;
     padding: 2px 4px;
-    font-size: 12px;
+    font-size: 13px;
 }
 option{
    
-    font-size: 12px;
+    font-size: 13px;
 }
 .flexfunc{
     display: flex;
@@ -142,7 +142,7 @@ option{
     position: relative;
     width: 100%;
     margin-bottom: 30px;
-    font-size: 12px;
+    font-size: 13px;
     
 }
 
@@ -178,7 +178,7 @@ option{
     padding: 10px 0 10px 0 ;
 }
 .cleartext{
-    font-size: 12px;
+    font-size: 13px;
     color: #ff8d8d;
     position: absolute;
     right: 0;
@@ -199,7 +199,7 @@ option{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin: 10px 0 ;
     padding: 10px ;
-    font-size: 12px;
+    font-size: 13px;
     
 }
 
@@ -216,7 +216,7 @@ option{
         padding: 20px;
     }
     .headingone{
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 600;
     }
 
@@ -226,7 +226,7 @@ option{
         color: #fff;
         padding: 4px 20px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .savecon{
@@ -238,11 +238,14 @@ option{
         right: 0;
         margin-right: 30px;
     }
+    .rowone{
+        margin: 10px 0 16px 0;
+    }
 .rowtwo{
     margin: 10px 0 ;
 }
     .headingtwo{
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
     }
 
@@ -255,13 +258,13 @@ option{
     }
 
     .txtthree{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     textarea {
         width: 100%;
     
-        padding: 12px 20px;
+        padding: 13px 20px;
         box-sizing: border-box;
         border: 2px solid #fff;
         background-color: #fff;
@@ -274,18 +277,18 @@ option{
         outline: 1px solid #0188f3;
         border: none;
         padding: 2px 4px;
-        font-size: 12px;
+        font-size: 13px;
     }
     
     input{
         outline: 1px solid #0188f3;
         border: none;
         padding: 2px 4px;
-        font-size: 12px;
+        font-size: 13px;
     }
     option{
        
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .bluebox{
@@ -338,15 +341,16 @@ option{
         color: #fff;
         border: none;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        padding: 4px 30px;
+        padding: 10px 30px;
         width: 90%;
+        font-size: 18px;
     }
     .copied{
         border: none;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         margin: 10px 0 ;
         padding: 10px ;
-        font-size: 12px;
+        font-size: 13px;
         max-width: 96%;
         
     }
@@ -359,6 +363,18 @@ option{
         margin: 0 10px;
         font-size: 16px;
         color:#707070
+    }
+
+    .wordcon{
+        position: relative;
+        width: 100%;
+        margin-bottom: 13px;
+        font-size: 13px;
+    }
+    .wordconchild{
+        position: absolute;
+        right: 0;
+        margin-right: 30px;
     }
 
 }
