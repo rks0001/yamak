@@ -212,4 +212,153 @@ option{
     .bigscreen{
         display: none;
     }
+    .maincon{
+        padding: 20px;
+    }
+    .headingone{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .btnsave{
+        border: none;
+        background-color: #0188f3;
+        color: #fff;
+        padding: 4px 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        font-size: 14px;
+    }
+
+    .savecon{
+        position: relative;
+        width: 100%;
+    }
+    .saveconchild{
+        position: absolute;
+        right: 0;
+        margin-right: 30px;
+    }
+.rowtwo{
+    margin: 10px 0 ;
+}
+    .headingtwo{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .bluetext{
+        color: #0188f3;
+    }
+
+    .rowthree{
+        margin: 10px 0 ;
+    }
+
+    .txtthree{
+        font-size: 12px;
+    }
+
+    textarea {
+        width: 100%;
+    
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #fff;
+        background-color: #fff;
+        font-size: 14px;
+        resize: none;
+        outline: none;
+      }
+    
+    select{
+        outline: 1px solid #0188f3;
+        border: none;
+        padding: 2px 4px;
+        font-size: 12px;
+    }
+    
+    input{
+        outline: 1px solid #0188f3;
+        border: none;
+        padding: 2px 4px;
+        font-size: 12px;
+    }
+    option{
+       
+        font-size: 12px;
+    }
+
+    .bluebox{
+        margin:0 8px;
+    }
+
+    .rowfour{
+        margin: 10px 0 ;
+    }
+
+    .rowfive{
+        margin: 10px 0 ;
+    }
+
+    .flexfunc{
+        display: flex;
+        border-bottom: 1px solid black;
+
+    }
+
+    .boxi{
+        border: 1px solid rgba(243, 243, 243, 0.9);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        padding: 0 10px;
+        min-width: 10px;
+        margin: 4px ;
+        font-weight: 600;
+        
+    }
+    
+    .texti{
+        
+        padding: 0 6px;
+        margin: 4px ;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .mainbox{
+        border: none;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+        
+    }
+.writecon{
+   
+    text-align: center;
+}
+    .write{
+        background-color: #0188f3;
+        color: #fff;
+        border: none;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 4px 30px;
+        width: 90%;
+    }
+    .copied{
+        border: none;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        margin: 10px 0 ;
+        padding: 10px ;
+        font-size: 12px;
+        max-width: 96%;
+        
+    }
+    
+    .copy{
+        color: #0188f3;
+    }
+    .navtxt{
+        font-weight: 500;
+        margin: 0 10px;
+        font-size: 16px;
+        color:#707070
+    }
+
 }

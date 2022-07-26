@@ -1,5 +1,6 @@
 import React from "react";
 import "./input.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Input = () => {
   return (
@@ -119,7 +120,135 @@ const Input = () => {
       </div>
 
       {/* SMALL SCREENS */}
-      <div className="smallscreens">SMALL</div>
+      <div className="smallscreens">
+        <Container className="maincon">
+          <Row className="rowtwo">
+            <Col>
+              <div className="headingone">Home/Template</div>
+            </Col>
+            <Col>
+              <div className="savecon">
+                <div className="saveconchild">
+                  <button className="btnsave">Save</button>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <div className="rowtwo">
+              <span className="headingtwo">
+                Enter input to get{" "}
+                <span className="bluetext">Writing Assistant</span>
+              </span>
+            </div>
+          </Row>
+          <Row className="rowthree">
+            <Col>
+              {" "}
+              <span className="txtthree">Words count:</span>
+              <span className="bluebox">
+                <input
+                  type="number"
+                  id="quantity"
+                  name="quantity"
+                  min="0"
+                  max="10"
+                />
+              </span>
+            </Col>
+            <Col>
+              <span className="txtthree">Prompt:</span>
+              <span className="bluebox">
+                <select id="cars" name="list" form="form">
+                  <option value="abc">ABC</option>
+                  <option value="efg">EFG</option>
+                  <option value="xyz">XYZ</option>
+                </select>
+              </span>
+            </Col>
+          </Row>
+          <Row className="rowfour">
+            <Col>
+              <span className="txtthree">Creativity:</span>
+              <span className="bluebox">
+                <select id="cars" name="list" form="form">
+                  <option value="abc">ABC</option>
+                  <option value="efg">EFG</option>
+                  <option value="xyz">XYZ</option>
+                </select>
+              </span>
+            </Col>
+          </Row>
+          <Row className="rowfour">
+            <div>
+              <div>word:00 | character:0/250</div>
+            </div>
+          </Row>
+
+          <Row className="rowfive">
+            <div className="mainbox">
+              <div className="flexfunc">
+                <div className="boxi">B</div>
+                <div className="boxi">I</div>
+                <div className="texti">hyperlink</div>
+                <div className="texti">text cut</div>
+                <div className="texti">underline</div>
+              </div>
+              <textarea placeholder="Type here" rows={10}></textarea>
+            </div>
+          </Row>
+          <Row className="rowfive">
+            <div>
+              <div className="writecon">
+                <button className="write">Write for me</button>
+              </div>
+            </div>
+          </Row>
+
+          <Row className="rowfive">
+            <div>
+              <div className="copied">
+                <span className="copy"> Copy |</span>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt voluptates illo distinctio quod culpa. Deleniti odio
+                </span>
+              </div>
+            </div>
+          </Row>
+          <Row className="rowfive">
+            <div>
+              <div className="copied">
+                <span className="copy"> Copy |</span>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt voluptates illo distinctio quod culpa. Deleniti odio
+                </span>
+              </div>
+            </div>
+          </Row>
+          <Row className="rowtwo">
+            <Col>
+              <div className="navtxt">Home</div>
+            </Col>
+            <Col>
+              <div className="navtxt">Marketing</div>
+            </Col>
+            <Col>
+              <div className="navtxt">Social Media</div>
+            </Col>
+            <Col>
+              <div className="navtxt">Sales Copy</div>
+            </Col>
+            <Col>
+              <div className="navtxt">Blogs </div>
+            </Col>
+            <Col>
+              <div className="navtxt">Others</div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };

@@ -1,4 +1,8 @@
-.navbaarmain{
+@media screen and (min-width: 601px) {
+ .smallscreens{
+    display: none;
+ }
+    .navbaarmain{
     background-color: white;
     border-bottom: 2px solid rgba(0, 0, 0, .1);
     min-height: 12vh;
@@ -34,3 +38,46 @@ color: #0188f3;
     font-size: 16px;
     color:#707070
 }
+}
+
+@media screen and (max-width: 600px) {
+    .bigscreens{
+       display: none;
+    }
+       .navbaarmain{
+       background-color: white;
+       border-bottom: 2px solid rgba(0, 0, 0, .1);
+       min-height: 12vh;
+       
+   }
+   
+   .brandname{
+      
+       font-size: 26px;
+       font-weight: 800;
+   }
+   /* brand color */
+   .yamak{
+   color: #0188f3;
+   }
+   .ai{
+       color:#414756;
+   }
+   
+   /* refresh icon */
+   .refreshicon{
+       margin:0 0 0 60px ;
+   }
+   
+   .refreshicontwo{
+       margin:0 0 0 40px ;
+   }
+   
+   
+   .navtxt{
+       font-weight: 500;
+       margin: 0 10px;
+       font-size: 16px;
+       color:#707070
+   }
+   }
