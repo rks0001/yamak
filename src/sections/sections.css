@@ -1,0 +1,12 @@
+.item1 { grid-area: ione; }
+.item2 { grid-area: itwo; }
+
+
+.gridcontainer{
+    display:grid;
+    grid-template-areas:
+    'ione ione ione ione itwo itwo';
+  gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
